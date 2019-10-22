@@ -1,0 +1,16 @@
+﻿
+   https://www.liquidweb.com/kb/install-java-8-on-centos-7/
+    1  yum update
+    2   yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel
+    3  java -version
+    4  update-alternatives --config java
+    5  find / -name java   or javac
+                      ***to know the path  completely
+    6  vi .bash_profile     
+                 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-0.el6_10.x86_64  
+     *** copied the path upto 64 only and save and closed
+    7  source .bash_profile
+    8  echo $JAVA_HOME
+   
+git installation 
+yum install git
